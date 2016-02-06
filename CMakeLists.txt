@@ -27,7 +27,7 @@ SET(CDEFS "-DF_CPU=1000000UL")
 SET(CFLAGS "${CMCU} ${CSTANDARD} ${CWARN} ${COPT} ${CTUNING} ${CDEFS}")
 SET(CMAKE_C_FLAGS ${CFLAGS})
 
-add_executable(CTest ${SRC_FILES} )
+add_executable(${PROJECT_NAME} ${SRC_FILES} )
 
 message("* ")
 message("* Project Name:\t${PROJECT_NAME}")
