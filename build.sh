@@ -1,6 +1,6 @@
 #!/bin/bash
 echo AVR Build Script
-. /etc/profile.d/modules.sh
+#. /etc/profile.d/modules.sh
 module add avr-gcc
 module add cmake
 mkdir -p build
